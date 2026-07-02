@@ -3,7 +3,6 @@ from datetime import datetime, timedelta
 import pytest
 import pytest_mock
 
-from Day9.restaurant.test_communication import TestableSmsSender, TestableMailSender
 from schedule import Customer, Schedule
 from communication import SmsSender, MailSender
 from booking_scheduler import BookingScheduler
